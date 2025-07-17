@@ -39,3 +39,12 @@
 
 # debug information files
 *.dwo
+
+*.uipp
+
+# directories
+/.vs
+/build
+/DUITemplate/x64
+/DUITemplate/Debug
+/DUITemplate/Release

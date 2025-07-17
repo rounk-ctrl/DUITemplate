@@ -10,6 +10,6 @@
 
 	<!--main elements-->
 	<element resid="main" sheet="mainsheet" layout="borderlayout()">
-		<element class="text" layoutpos="top" content="Hello DirecUI!" />
+		<element class="text" layoutpos="top" content="Hello DirectUI!" />
 	</element>
 </duixml>
