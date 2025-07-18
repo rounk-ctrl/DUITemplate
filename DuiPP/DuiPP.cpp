@@ -57,7 +57,7 @@ void preprocess(wchar_t* file)
 
 int wmain(int argc, wchar_t* argv[])
 {
-	std::cout << std::filesystem::path(argv[1]).filename();
+	std::wcout << std::filesystem::path(argv[1]).filename().wstring();
 	if (argc <= 2)
 	{
 		std::cout << "Usage: DuiPP.exe <dui file> <header file 1> <header file 2> ...\n" ;
