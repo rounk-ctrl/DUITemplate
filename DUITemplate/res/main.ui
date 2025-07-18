@@ -7,9 +7,9 @@
 			</if>
 		</style>
 	</stylesheets>
-
+  
 	<!--main elements-->
 	<element resid="main" sheet="mainsheet" layout="borderlayout()">
-		<element class="text" layoutpos="top" content=QUOTEXML(resstr(IDS_STRING1)) />
+		<element class="text" layoutpos="top" content="resstr(IDS_STRING1)" />
 	</element>
 </duixml>

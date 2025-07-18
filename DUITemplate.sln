@@ -6,9 +6,12 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DUITemplate", "DUITemplate\DUITemplate.vcxproj", "{77D7DCA3-6BF4-40DD-B08C-BD8168750EB4}"
 	ProjectSection(ProjectDependencies) = postProject
 		{0B7DE49A-33C6-41B1-A9CE-D353031F8454} = {0B7DE49A-33C6-41B1-A9CE-D353031F8454}
+		{437EE993-3613-4F0B-B886-10A43C8F4796} = {437EE993-3613-4F0B-B886-10A43C8F4796}
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DirectUI", "dui70\DirectUI\DirectUI.vcxproj", "{0B7DE49A-33C6-41B1-A9CE-D353031F8454}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DuiPP", "DuiPP\DuiPP.vcxproj", "{437EE993-3613-4F0B-B886-10A43C8F4796}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -34,6 +37,14 @@ Global
 		{0B7DE49A-33C6-41B1-A9CE-D353031F8454}.Release|x64.Build.0 = Release|x64
 		{0B7DE49A-33C6-41B1-A9CE-D353031F8454}.Release|x86.ActiveCfg = Release|Win32
 		{0B7DE49A-33C6-41B1-A9CE-D353031F8454}.Release|x86.Build.0 = Release|Win32
+		{437EE993-3613-4F0B-B886-10A43C8F4796}.Debug|x64.ActiveCfg = Debug|x64
+		{437EE993-3613-4F0B-B886-10A43C8F4796}.Debug|x64.Build.0 = Debug|x64
+		{437EE993-3613-4F0B-B886-10A43C8F4796}.Debug|x86.ActiveCfg = Debug|Win32
+		{437EE993-3613-4F0B-B886-10A43C8F4796}.Debug|x86.Build.0 = Debug|Win32
+		{437EE993-3613-4F0B-B886-10A43C8F4796}.Release|x64.ActiveCfg = Release|x64
+		{437EE993-3613-4F0B-B886-10A43C8F4796}.Release|x64.Build.0 = Release|x64
+		{437EE993-3613-4F0B-B886-10A43C8F4796}.Release|x86.ActiveCfg = Release|Win32
+		{437EE993-3613-4F0B-B886-10A43C8F4796}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
