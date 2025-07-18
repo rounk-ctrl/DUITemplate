@@ -4,6 +4,7 @@
 //
 #define IDC_MYICON                      2
 #define IDS_APP_TITLE                   103
+#define IDS_STRING1                     104
 #define IDI_DUITEMPLATE                 107
 #define IDR_MAINWND                     110
 #define IDC_STATIC                      -1

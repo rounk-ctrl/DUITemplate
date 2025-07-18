@@ -4,7 +4,6 @@
 
 #ifndef DUI_INC_DIRECTUIPP_H_INCLUDED
 #define DUI_INC_DIRECTUIPP_H_INCLUDED
-
  /*
   * NOTE: Various system #defines are replicated here for 2 reasons:
   *    1) Preprocessing a file like winuser.h results in a huge UIPP file
@@ -308,5 +307,8 @@
 #define TS_HOTCHECKED           6
 
 #endif // DIRECTUIPP_IGNORESYSDEF
+
+#define STR(x) #x
+#define QUOTEXML(x) STR(x)
 
 #endif // DUI_INC_DIRECTUIPP_H_INCLUDED
