@@ -36,9 +36,6 @@ void preprocess(wchar_t* file)
 	std::wstring content = buffer.str();
 	for (const auto& [key, value] : map_defines)
 	{
-#ifdef _DEBUG
-		std::wcout << key << "->" << value << "\n";
-#endif
 		std::wregex word_regex(L"\\b" + key + L"\\b");
 		content = std::regex_replace(content, word_regex, value);
 	}
