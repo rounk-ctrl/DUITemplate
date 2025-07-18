@@ -106,6 +106,7 @@
         @echo off
         for %%i in (.\res\*.ui) do (
           cl /nologo /EP /FI"$(ProjectDir)directuipp.h" /FI"$(ProjectDir)resource.h" %%i &gt; %%ipp
+          powershell -c "(Get-Content '%%ipp' -Raw) -replace '\t+', '' | Set-Content '%%ipp'"
           powershell -c "(Get-Content '%%ipp' | Where-Object {$_ -match '\S'}) | Set-Content '%%ipp'"
         )
       </Command>
@@ -135,6 +136,7 @@
         @echo off
         for %%i in (.\res\*.ui) do (
           cl /nologo /EP /FI"$(ProjectDir)directuipp.h" /FI"$(ProjectDir)resource.h" %%i &gt; %%ipp
+          powershell -c "(Get-Content '%%ipp' -Raw) -replace '\t+', '' | Set-Content '%%ipp'"
           powershell -c "(Get-Content '%%ipp' | Where-Object {$_ -match '\S'}) | Set-Content '%%ipp'"
         )
       </Command>
@@ -160,6 +162,7 @@
         @echo off
         for %%i in (.\res\*.ui) do (
           cl /nologo /EP /FI"$(ProjectDir)directuipp.h" /FI"$(ProjectDir)resource.h" %%i &gt; %%ipp
+          powershell -c "(Get-Content '%%ipp' -Raw) -replace '\t+', '' | Set-Content '%%ipp'"
           powershell -c "(Get-Content '%%ipp' | Where-Object {$_ -match '\S'}) | Set-Content '%%ipp'"
         )
       </Command>
@@ -189,6 +192,7 @@
         @echo off
         for %%i in (.\res\*.ui) do (
           cl /nologo /EP /FI"$(ProjectDir)directuipp.h" /FI"$(ProjectDir)resource.h" %%i &gt; %%ipp
+          powershell -c "(Get-Content '%%ipp' -Raw) -replace '\t+', '' | Set-Content '%%ipp'"
           powershell -c "(Get-Content '%%ipp' | Where-Object {$_ -match '\S'}) | Set-Content '%%ipp'"
         )
       </Command>

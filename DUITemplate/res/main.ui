@@ -1,5 +1,5 @@
 <duixml>
-  <!--all styles here-->
+	<!--all styles here-->
 	<stylesheets>
 		<style resid="mainsheet">
 			<if class="text">
