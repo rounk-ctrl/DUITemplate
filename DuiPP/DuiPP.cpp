@@ -40,7 +40,7 @@ void preprocess(wchar_t* file)
 		content = std::regex_replace(content, word_regex, value);
 	}
 
-	std::wregex space_regex(LR"(.+?(?=<))");
+	std::wregex space_regex(LR"(^[ \t]+(?=(<|\w+=)))");
 	std::wregex comment_regex(LR"(\s<!--.*?-->\n)");
 	std::wregex blank_regex(LR"(\n\s*\n)");
 	content = std::regex_replace(content, comment_regex, L"");
@@ -57,11 +57,11 @@ void preprocess(wchar_t* file)
 
 int wmain(int argc, wchar_t* argv[])
 {
-	std::wcout << std::filesystem::path(argv[1]).filename().wstring();
 	if (argc <= 2)
 	{
 		std::cout << "Usage: DuiPP.exe <dui file> <header file 1> <header file 2> ...\n" ;
 	}
+	std::wcout << std::filesystem::path(argv[1]).filename().wstring();
 
 	int headers = argc - 2;
 	for (int i = 0; i < headers; ++i)

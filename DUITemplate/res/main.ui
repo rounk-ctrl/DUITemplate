@@ -3,7 +3,8 @@
 	<stylesheets>
 		<style resid="mainsheet">
 			<if class="text">
-				<element fontsize="9pt"/>
+				<element 
+					fontsize="9pt"/>
 			</if>
 		</style>
 	</stylesheets>
